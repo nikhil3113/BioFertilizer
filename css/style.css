@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.nav-link{
+    font-weight: bold;
+}
+
+.headings{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.sub-head{
+    color: green;
+}
+.carousel .item {
+    width: 1600px;
+    height: 574px;
+  }
+  
+.item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+}
+#About{
+    margin-top: 60px;
+}
+.about-heads{
+    font-family: 'DynaPuff', cursive;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+@media (max-width: 768px) {
+    #About {
+        height: 100%;
+    }
+    .about3{
+        width: 200px;
+    }
+}
