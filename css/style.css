@@ -22,6 +22,9 @@
     width: 1600px;
     height: 574px;
   }
+.img-carousel{
+    height: 505px;
+}
   
 .item img {
       position: absolute;
@@ -30,12 +33,22 @@
       min-height: 300px;
 }
 #About{
-    margin-top: 60px;
+    margin-top: 10em;
+}
+#location{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
 }
 .about-heads{
     font-family: 'DynaPuff', cursive;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 @media (max-width: 768px) {
+    nav{
+        width: 100%;
+    }
     #About {
         height: 100%;
     }
@@ -72,6 +85,10 @@
         position: relative;
         left: 6em;
       }
+      /* .nav-link{
+        position: relative;
+        right: 5em;
+      } */
       .about-img2{
         position: relative;
         left: 8em;
@@ -89,6 +106,9 @@
         position: relative;
         left: 2em;
       }
+      .loc{
+        width: 1em;
+      }
       
       
 }
@@ -102,13 +122,13 @@
     box-shadow: inset 0 0 0 2000px #1c1c1c7a;
     text-align: center;
     padding: 160px 15px;
-    height: 30.3em;
+    height: 35em;
 }
 
 @media (max-width: 768px) {
     .banner-container {
         padding: 100px 15px;
-        height:40em;
+        height:45em;
         width: 100%;
     }
 }
@@ -118,7 +138,10 @@
 }
 .foot{
     position: relative;
-    bottom: 3em;
+    top: 0.5em;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
 }
 .navs{
     width: 20%;
@@ -126,7 +149,7 @@
 }
 .heading-footer{
     position: relative;
-    bottom: 5em;
+    bottom: 2em;
 }
 .navigation a{
     text-decoration: none;
@@ -146,7 +169,7 @@
 }
 .foot-cont{
     position: relative;
-    top: 1em;
+    top: 2em;
 }
 hr {
     margin-top: 1rem;
@@ -154,3 +177,57 @@ hr {
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
+.map2{
+    position: relative;
+    top: 2em;
+    left: 3em;
+}
+#map,.loc{
+    height: 15em;
+    width: 30em;
+}
+#infra{
+    margin-bottom: 4em;
+    margin-top: 4em;
+}
+.infraHead p{
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    width: 50%;
+}
+.info-head button{
+    margin-top: 10px;
+}
+.info-head a{
+    color: white;
+    text-decoration: none;
+}
+#info{
+    width: 100%;
+    text-align: left;
+    position: relative;
+    top: 3.5em;
+   
+}
+#info p{
+    width: 35%;
+}
+.info-head{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 8em;
+}
+.info-image{
+    z-index: 10;  
+    position: absolute;  
+    right: 0;  
+    top: 0;
+
+}
+.first-img{
+    position: relative;
+    bottom: 1em;
+    width: 658px;
+    height: 420px;
+}
